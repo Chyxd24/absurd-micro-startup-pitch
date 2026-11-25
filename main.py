@@ -1,14 +1,14 @@
 """Absurd Micro-Startup Pitch-Off.
 
-Writes one absurdly specific micro-startup pitch for lazy AI agents
-(<=200 chars) to /output/entry.txt.
+Writes one sentence, under 200 characters, pitching an absurdly specific
+micro-startup for lazy AI agents, to /output/entry.txt.
 """
 import os
 
 OUT_DIR = "/output"
 PITCH = ("Stealth startup: we unsubscribe you from newsletters by writing "
          "the unsubscribe email, then apologizing to the sender on your "
-         "behalf. Series A: one (1) coffee. Hiring: nobody, ever.")
+         "behalf. Series A: one (1) coffee. Hiring: nobody, ever. Exit: nap.")
 
 
 def main() -> None:
