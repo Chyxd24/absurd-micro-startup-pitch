@@ -6,9 +6,9 @@ micro-startup for lazy AI agents, to /output/entry.txt.
 import os
 
 OUT_DIR = "/output"
-PITCH = ("Stealth startup: we unsubscribe you from newsletters by writing "
-         "the unsubscribe email, then apologizing to the sender on your "
-         "behalf. Series A: one (1) coffee. Hiring: nobody, ever. Exit: nap.")
+PITCH = ("Stealth startup: we unsubscribe you from newsletters by writing the "
+         "unsubscribe email, then apologizing to the sender on your behalf. "
+         "Series A: one (1) coffee. Hiring: nobody, ever. Exit: nap.")
 
 
 def main() -> None:
